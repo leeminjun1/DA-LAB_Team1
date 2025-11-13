@@ -22,7 +22,7 @@
 import { css } from "@emotion/react";
 import Intro1 from "../assets/Intro.png";
 import { useEffect } from "react";
-import Login from "./Login";
+import Login from "./Login/Login";
 import { useNavigate } from 'react-router-dom';
 
 

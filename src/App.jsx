@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Intro from './pages/Intro'
-import Login from './pages/Login'
-import SignUp from './pages/SignUp'
+import Login from './pages/Login/Login'
+import SignUp from './pages/SignUp/SignUp'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {

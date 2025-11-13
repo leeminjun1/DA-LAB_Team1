@@ -1,8 +1,9 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import No_777 from '../assets/No_777.png';
-import No777_2 from '../assets/No777_2.png';
+import No_777 from '../../assets/No_777.png';
+import No777_2 from '../../assets/No777_2.png';
 import { useNavigate } from 'react-router-dom';
+import "./Login.css"
 
 
 const mobileWrapper = css`
@@ -124,12 +125,12 @@ export default function Login() {
                     
                     <div css={email}>
                         <label css={email2}>이메일</label>
-                        <input type="email" name="email" css={input_email} placeholder='이메일 입력'/>
+                        <input type="email" name="email" css={input_email} className='input_email' placeholder='이메일 입력'/>
                     </div>
 
                     <div css={password}>
                         <label htmlFor="" css={password2}>비밀번호</label>
-                        <input type="password" name="password"  css={input_password} placeholder='비밀번호 입력'/>
+                        <input type="password" name="password"  css={input_password} className='input_password' placeholder='비밀번호 입력'/>
                     </div>
 
                     <div css={extra} onClick={goToSignUp}>
