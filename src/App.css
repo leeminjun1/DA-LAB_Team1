@@ -4,3 +4,7 @@ body {
     background-color: rgb(182, 180, 178);
     font-family: "Pretendard Variable", Pretendard, system-ui, Roboto, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 }
+
+button {
+  font-family: "Pretendard Variable", Pretendard, system-ui, Roboto, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
