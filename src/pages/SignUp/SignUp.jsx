@@ -2,7 +2,7 @@
 import { css } from '@emotion/react'
 import './SignUp.css'
 import { useNavigate } from 'react-router-dom'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const mobileWrapper = css`
     width: 100vw;
