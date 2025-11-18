@@ -91,6 +91,10 @@ export default function SpaceMain() {
         navigate('/receiver-main')
     }
 
+    const goToGiverMain = () =>{
+        navigate('/giver-main')
+    }
+
 
     return (
         <>
@@ -101,7 +105,7 @@ export default function SpaceMain() {
                 </div>
 
                 <div css={group2}>
-                    <button css={groupBtn}>그룹 생성하기</button>
+                    <button css={groupBtn} onClick={goToGiverMain}>그룹 생성하기</button>
                     <button onClick={goToReceiverMain} css={groupBtn}>그룹 입장하기</button>
                 </div>
 
