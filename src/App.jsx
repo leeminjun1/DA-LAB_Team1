@@ -8,6 +8,8 @@ import SpaceMain from './pages/SpaceMain'
 import ReceiverMain from './pages/ReceiverMain'
 import GiverMain from './pages/GiverMain'
 import LookBook from './pages/LookBook'
+import GroupCreate from './GroupCreate'
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Route path="/receiver-main" element={<ReceiverMain />} />
         <Route path="/giver-main" element={<GiverMain />} />
         <Route path='/look-book' element={<LookBook />} />
+        <Route path="/groupcreate" element={<GroupCreate />} />
     </Routes>
     </>
   )
